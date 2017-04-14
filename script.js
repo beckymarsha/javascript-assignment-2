@@ -24,7 +24,39 @@ var boxes = document.querySelectorAll('.box');
 if (boxes.length < 301 && > 200) {
     console.log("less then 301, more than 200")
     boxes[].style.backgroundColor = "yellow";
-} else {
+} 
+
+else if (boxes.length < 401 && > 300) {
+    console.log("less then 401, more than 300")
+    boxes[].style.backgroundColor = "green";
+} 
+
+else if (boxes.length < 501 && > 400) {
+    console.log("less then 501, more than 400")
+    boxes[].style.backgroundColor = "purple";
+} 
+
+else if (boxes.length < 601 && > 500) {
+    console.log("less then 601, more than 500")
+    boxes[].style.backgroundColor = "orange";
+} 
+
+else if (boxes.length < 701 && > 600) {
+    console.log("less then 701, more than 600")
+    boxes[].style.backgroundColor = "pink";
+} 
+
+else if (boxes.length < 801 && > 700) {
+    console.log("less then 701, more than 600")
+    boxes[].style.backgroundColor = "black";
+} 
+
+else if (boxes.length < 901 && > 800) {
+    console.log("less then 701, more than 600")
+    boxes[].style.backgroundColor = "brown";
+} 
+
+else {
     console.log("default")
     boxes[].style.backgroundColor = "blue";
 }
