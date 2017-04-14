@@ -20,6 +20,34 @@
 
 var boxes = document.querySelectorAll('.box');
 
+if boxes.
+
+if (boxes.length < 301 && > 200) {
+    console.log("There are more than four boxes")
+    boxes[].style.backgroundColor = "yellow";
+} else {
+    console.log("There are five or fewer boxes")
+}
+
+function boxClicked(){
+        console.log("Box clicked");
+}
+
+// switch (boxes.length) {
+//     case 201-300:
+//         boxes[201-300].style.backgroundColor = "yellow";
+//         break;
+
+//     case 2:
+//         console.log("We have 2 boxes.");
+//         break;
+
+//     default:
+//     console.log("Default");
+//     boxes[0].style.marginLeft = 100 + "px";
+//     boxes[1].style.backgroundColor = "blue";
+//     break;
+// }
 
 
 for (var i = 0; i < boxes.length; i++) {
