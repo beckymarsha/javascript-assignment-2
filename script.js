@@ -70,3 +70,8 @@ for (var i = 0; i < boxes.length; i++) {
     console.log(i);
     boxes[i].addEventListener("click", boxClicked);
 }
+
+for (var i = 0; i < 99; i++) {
+   console.log(i);
+   boxes[i].addEventListener("click", boxClicked);
+}
