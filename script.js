@@ -1,11 +1,12 @@
 boxes = document.getElementsByClassName('box');
+
 console.log("Total number of boxes: " + boxes.length)
 
 for (var i = 0; i < boxes.length; i++) {
     box = boxes[i];
     box.addEventListener('click', function() {
         if (this.className === "box") {
-            this.className = "clickedBox";
+            this.className = "clicked";
         } else {
             this.className = "box";
         }
