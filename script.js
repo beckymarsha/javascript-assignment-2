@@ -31,36 +31,26 @@ for (var i = 0; i < boxes.length; i++) {
         }
 
         if (boxes.length <= 301 && boxes.length >= 201) {
-            console.log("less then 301, more than 200")
             this.style.backgroundColor = "yellow";
-        }
-        else if (boxes.length < 401 && boxes.length > 300) {
-            console.log("less then 401, more than 300")
+        } else if (boxes.length < 401 && boxes.length > 300) {
             this.style.backgroundColor = "green";
-        }
-        else if (boxes.length < 501 && boxes.length > 400) {
-            console.log("less then 501, more than 400")
+        } else if (boxes.length < 501 && boxes.length > 400) {
+            console.log("less then 501, more than 400");
             this.style.backgroundColor = "purple";
-        }
-        else if (boxes.length < 601 && boxes.length > 500) {
-            console.log("less then 601, more than 500")
+        } else if (boxes.length < 601 && boxes.length > 500) {
+            console.log("less then 601, more than 500");
             this.style.backgroundColor = "orange";
-        }
-        else if (boxes.length < 701 && boxes.length > 600) {
-            console.log("less then 701, more than 600")
+        } else if (boxes.length < 701 && boxes.length > 600) {
+            console.log("less then 701, more than 600");
             this.style.backgroundColor = "pink";
-        }
-        else if (boxes.length < 801 && boxes.length > 700) {
-            console.log("less then 701, more than 600")
+        } else if (boxes.length < 801 && boxes.length > 700) {
+            console.log("less then 701, more than 600");
             this.style.backgroundColor = "black";
-        }
-        else if (boxes.length < 901 && boxes.length > 800) {
-            console.log("less then 701, more than 600")
+        } else if (boxes.length < 901 && boxes.length > 800) {
+            console.log("less then 701, more than 600");
             this.style.backgroundColor = "brown";
-        }
-        else {
-            console.log("default")
+        } else {
             this.style.backgroundColor = "blue";
         }
-});
+    });
 }
