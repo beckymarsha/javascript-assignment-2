@@ -1,4 +1,4 @@
-var boxes = document.querySelectorAll('.box');
+boxes = document.getElementsByClassName('box');
 console.log("Total number of boxes: " + boxes.length)
 
 for (var i = 0; i < boxes.length; i++) {
