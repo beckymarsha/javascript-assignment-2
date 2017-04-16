@@ -62,5 +62,5 @@ for (var i = 0; i < boxes.length; i++) {
             console.log("default")
             this.style.backgroundColor = "blue";
         }
-
-    }
+});
+}
